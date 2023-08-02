@@ -1,0 +1,126 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=1060&t=st=1690819277~exp=1690819877~hmac=6babf257aacd2035538bfcf8e05435952e781fda71ba1779270a3922bca5552f);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    text-align: center;
+    
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px whitesmoke;
+    -webkit-text-fill-color: brown;
+
+    position: relative;
+    top: 200px ;
+}
+
+.bar-bg
+{
+    display: flex;
+    justify-content:baseline;
+
+    width: 15em;
+    height: 1em;
+
+    position: relative;
+    top: 32px;
+    z-index: 2;
+
+    border: solid whitesmoke;
+ 
+}
+.bar
+{
+    width: 10em;
+    height: auto;
+    background-color: goldenrod;
+    position: relative;    
+}
+.item-txt
+{
+   font-size: 24px;
+    margin-top: 16px;
+}
+.item-header
+{
+    font-size: 35px;
+}
+.home
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+    text-decoration: none;
+}
+.container_bar-num
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 4vh;
+    z-index: 2;
+    width: 15em;
+    justify-content: space-between;
+}
+.container_btn
+{
+    position: relative;
+    top: 5vh;
+}
+
+
+.container_btn > a
+{
+    display: block;
+    width: 8em;
+    height: 2vw;
+    background-color: red;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.container-logo
+{
+    z-index: 3;
+    position: relative;
+    top:8vh;
+    height: 2vw;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo > a
+{
+    display: block;
+    width: 5em;
+    height: 2vw;
+    background-color: sandybrown;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.footerPage
+{
+    position: relative;
+    top: 42.95vh;
+    width: 50%;
+    background-color: salmon;
+    border: 1px solid rgb(255, 119, 0);
+    align-self: center;
+    border-radius: 18px 18px 0 0;
+}
+
+
